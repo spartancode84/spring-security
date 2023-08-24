@@ -10,13 +10,13 @@ import java.util.Map;
 /**
  * @project ms-security
  * @autor Oscar Alfredo Chafloque Tampeck
- * @date 22/08/2023
+ * @date 23/08/2023
  **/
 @RestController
-@RequestMapping(path = "/bussinnes")
-public class BussinessController {
+@RequestMapping(path = "/loans")
+public class LoanController {
     @GetMapping
     Map<String, String> welcome(){
-        return Collections.singletonMap("Estoy Aqui ->", "bussinnes");
+        return Collections.singletonMap("Estoy Aqui ->", "loans");
     }
 }

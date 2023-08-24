@@ -17,6 +17,6 @@ import java.util.Map;
 public class WelcomeController {
     @GetMapping
     Map<String, String> welcome(){
-        return Collections.singletonMap("Estoy Aqui ->", "Oscar Alfredo");
+        return Collections.singletonMap("Estoy Aqui ->", "welcome");
     }
 }

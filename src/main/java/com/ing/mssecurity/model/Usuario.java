@@ -3,6 +3,8 @@ package com.ing.mssecurity.model;
 import jakarta.persistence.*;
 import lombok.Data;
 
+import java.util.List;
+
 /**
  * @project ms-integrated
  * @autor Oscar Alfredo Chafloque Tampeck
@@ -13,7 +15,7 @@ import lombok.Data;
 public class Usuario {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private Long id;
+    private Long idUsuario;
 
     private String nombre;
 

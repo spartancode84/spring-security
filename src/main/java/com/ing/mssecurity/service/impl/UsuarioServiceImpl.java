@@ -37,7 +37,7 @@ public class UsuarioServiceImpl implements UsuarioService, UserDetailsService {
 
     @Override
     public Optional<Usuario> porEmail(String email) {
-        return usuarioRepository.porEmail(email);
+        return usuarioRepository.findByEmail(email);
     }
 
     @Override
